@@ -1,16 +1,19 @@
 <?php
+
 namespace App\Controllers;
 
-class SelamatDatang extends BaseController {
-
-    public function hal_awal(){
+class SelamatDatang extends BaseController 
+{
+    public function hal_awal()
+    {
         return 'hello saya belajar CI4';
     }
-    public function beranda_login(){
+    public function beranda_login()
+    {
         return view( name : 'halaman/login');
     }
-    public function daftar_member(){
+    public function daftar_member()
+    {
         return view( name: 'halaman/daftar_member');
-        
     }
 }
