@@ -14,6 +14,6 @@ class SelamatDatang extends BaseController
     }
     public function daftar_member()
     {
-        return view( name: 'halaman/daftar_member');
+        return view( name : 'halaman/daftar_member');
     }
 }
