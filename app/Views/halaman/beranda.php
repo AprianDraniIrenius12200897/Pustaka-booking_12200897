@@ -8,9 +8,9 @@
             <h3 class="card-title">Beranda</h3>
         </div>
         <div class="card-body">
-            Halo ini beranda<br />
-            Email yang diisikan : <?= $email ?> <br />
-            Password : <?= $sandi ?>
+        Halo ini beranda<br>
+            Email yang diisikan : <?=$email?><br>
+            Password : <?=$sandi?>
         </div>
     </div>
 </div>
